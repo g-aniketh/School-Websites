@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 4px;
+	width: 0%;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	transition: 0.7s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar-brand img{
+    padding-left: 24px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: # !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*---------PROMO---------*/
+.promo{
+    margin: 0;
+}
+.promo-img{
+    width: 100.035%;
+    filter: grayscale(20%);
+}
+.promo-title{
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    right: 20%;
+}
+.promo-tagline{
+    font-family:'Gill Sans', 'Gill Sans MT';
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    top: 238px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+.download{
+    position: absolute;
+    top: 315px;
+    width: 275px;
+    height: 60px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(104, 206, 104);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    text-align: center;
+}
+.download:hover {
+    transition: 0.5s;
+    background-color: #fff;
+    color: rgb(104, 206, 104);
+    font-weight: bold;
+}
+.windows{
+    width: 22px;
+    position: absolute;
+    top: 360px;
+    left: 45.2%;
+}
+.mac{
+    width: 22px;
+    position: absolute;
+    top: 356px;
+    left: 47.8%;
+}
+.android{
+    width: 23px;
+    position: absolute;
+    top: 357px;
+    left: 50.3%;
+}
+.linux{
+    width: 25px;
+    position: absolute;
+    top: 359px;
+    left: 52.8%;
+    right: 40%;
+}
+.devices{
+    width: 40%;
+    position: absolute;
+    top: 428px;
+    left: 30%;
+    right: 30%;
+}
+.facebook{
+    width: 15px;
+    position: absolute;
+    top: 488px;
+    left: 1.8%;
+}
+.instagram{
+    width: 34px;
+    position: absolute;
+    top: 524px;
+    left: 1.08%;
+    right: 30%;
+}
+.twitter{
+    width: 35px;
+    position: absolute;
+    top: 549px;
+    left: 1%;
+    right: 30%;
+}
+.linkedIN{
+    width: 33px;
+    position: absolute;
+    top: 578px;
+    left: 1%;
+    right: 30%;
+}
