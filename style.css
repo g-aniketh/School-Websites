@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*---Naviagtion---*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-size: 16px;
+}
+#nav-bar ul li a:hover{
+    color: #b03a83!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.navbar{
+    background: #ffb3e3;
+}
+.navbar-toogler{
+    border: none!important;
+}
+.nav-link{
+    color: black!important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*---Slider---*/
+#slider{
+    width: 100%;
+    background-image: url("images/background.png");
+}
+.slider-img
+{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---About Us---*/
+.for-background{
+    background-image: url('images/background.png');
+}
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #454b52;
+}
+.about-content1{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+.about-content2{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 80px;
+}
+.about-content3{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 80px;
+}
+.about-content4{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 80px;
+}
+
+/*---Contact Us---*/
+.contactUs{
+    padding: 20px 50px 50px 80px;
+}
+#mobile-img{
+    width: 35px;
+}
+#email-img{
+    width: 40px;
+}
+.contact-us-style{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    justify-content: center;
+}
+.newsletter{
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.subscribe{
+    padding-bottom: 20px;
+}
+.subscribe-btn{
+    width: 110px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(255, 140, 94);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-left: 80px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+}
+.subscribe-btn:hover{
+    transition: 0.5s;
+    background-color: rgb(145, 145, 145);
+    color: rgb(255, 172, 139);
+    font-weight: bold;
+}
