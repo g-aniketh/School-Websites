@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/bg\ img.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px, 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 15%;
+	cursor: pointer;
+	padding-top: 17px;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 4px;
+	width: 0%;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	transition: 0.7s;
+}
+
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50);
+	text-align: center;
+	color: #fff;	
+}
+
+.content h2{
+	font-size: 55px;
+	color: #7fcdcd;
+	margin-top: 25px;
+}
+
+.content p{
+	font-size: 18px;
+	color: #fdffd9;
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+button{
+	width: 200px;
+	font-size: 17px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+
+	background-color: #fff;
+	padding: 15px 0;
+	border: none;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	z-index: 1;
+}
+
+button::before{
+	content: '';
+	position: absolute;
+	border-radius: 25px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #009688;
+	transition: transform 0.7s ease-in-out;
+	transform: scaleX(0);
+}
+
+button:hover::before,
+button:focus::before{
+	transform: scale(1);
+	border: none;
+}
+
+button:hover,
+button:focus{
+	color: #F7CBCD;
+	border: none;
+}
+
+.social-links{
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+}
+#twitter{
+	margin-top: 50vh;
+}
+#instagram{
+	margin-top: 2px;
+}
+#facebook{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#linkedin{
+	margin-top: 2px;
+}
