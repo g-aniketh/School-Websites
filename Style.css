@@ -1,0 +1,71 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: powderblue ;
+	font-family: 'Oswald', sans-serif;
+}
+
+.back-to-top{
+	color:blue;
+	text-decoration:none;
+	border:4px solid black;
+	background-color:orange;
+	padding:10px;
+	position:fixed;
+	bottom:10px;
+}
+.back-to-top:hover{
+	color:red;
+	background-color:green;
+}
+
+header{
+	display: grid;
+	grid-template-areas: "logo . home features contactus aboutus";
+	size: auto auto;
+	background-color: grey;
+	border: 5px solid black;
+}
+.header-item1{
+	grid-area: logo;
+	width: 70%;
+	height: 70%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.header-item2{
+	grid-area: home;
+}
+.header-item3{
+	grid-area: features;
+}
+.header-item4{
+	grid-area: contactus;
+}
+.header-item5{
+	grid-area: aboutus;
+}
+.header-item2, .header-item3, .header-item4, .header-item5{
+	text-decoration: none;
+	color: #66ff66;
+	font-size: 27px;
+	padding-left: 90px;
+	padding-right: 100px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.header-item2:hover, .header-item3:hover, .header-item4:hover, .header-item5:hover{
+	color: #ffff66;
+}
+.image1, .headingFeatures, .features-container1-item1, .features-container1-item2, .features-container1-item3, .features-container2-item1, .features-container2-item2, .features-container2-item3, .features-container3-item1, .features-container3-item2, .features-container3-item3, .features-container4-item1, .features-container4-item2, .features-container4-item3, .features-container5-item1, .features-container5-item2, .features-container5-item3, .about-us-item1, .contacts-container, .contact-us-Heading{
+	padding-left: 30px;
+}
+.hrLine{
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+footer p{
+	padding-left: 30px;
+	padding-bottom: 10px;
