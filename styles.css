@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+html{
+  background-color: #F7F7F7;
+  font-family: 'Acme', sans-serif;
+}.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar > ul{
+  display: flex;
+  margin-right: 45px;
+}
+.logo-image{
+  padding: 8px 8px 0 15px;
+}
+ul > li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 25px;
+}
+li > a{
+  color: black;
+  text-decoration: none;
+}
+li > a:hover{
+  text-decoration: underline 4px;
+  text-decoration-color: rgb(255, 169, 184);
+}
+.image-one{
+  position: relative;
+  float: right;
+  margin-top: 8vh;
+}
+.heading-one{
+  display: inline-block;
+  font-size: 15vh;
+  margin-left: 25vh;
+}
+.part-two{
+  display: flex;
+  margin-top: 20vh;
+}
+.part-two-sub{
+  margin: 1vh 13vh;
+}
+.heading-two{
+  font-size: 5.5vh;
+}
+.paragraph-two{
+  font-size: 3vh;
+  margin-right: 20%;
+}
+#about-us{
+  margin-top: 15vh;
+  margin-left: 8vh;
+}
+.heading-three{
+  font-size: 9vh;
+  margin-right: 50vh;
+}
+#products{
+  display: flex;
+  margin-top: 22vh !important;
+  margin: 8vh;
+}
+.item1{
+  margin-right: 15vh;
+}
